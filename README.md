@@ -1,4 +1,4 @@
-# About FIXX
+# About FIXX -- ALL CODE WILL BE ADDED BEFORE 9/20
 
 This artifact contains details about Finding Exploits by Example (FIXX)
 
@@ -17,7 +17,7 @@ Before running FIXX on any application, it is important to obtain a known vulner
 ## Pre-requisites
 - Most common terminal command <br>
     ```
-  python navev.py -n *application name* *argument_type*
+  python main.py -n *application name* *argument_type*
     ```
 - Docker Engine setup
   * The primary step in running our approach is to have Docker setup and running
