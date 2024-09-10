@@ -1,0 +1,7 @@
+htmlspecialchars
+echo
+_GET
+_POST
+htmlentities
+_REQUEST
+mysqli_query

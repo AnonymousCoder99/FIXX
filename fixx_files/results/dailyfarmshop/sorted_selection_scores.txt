@@ -1,0 +1,4 @@
+score:  1.0 /var/www/html/dailyfarmshop/dfsms/add-category.php 9 func name: 1
+score:  1.0 /var/www/html/dailyfarmshop/dfsms/add-category.php 12 func name: 1
+score:  1.0 /var/www/html/dailyfarmshop/dfsms/add-category.php 14 func name: 1
+score:  0.0001 /var/www/html/dailyfarmshop/dfsms/add-category.php 15 func name: 1

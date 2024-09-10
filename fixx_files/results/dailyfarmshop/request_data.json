@@ -1,0 +1,1 @@
+{"request_type": "POST", "params": {"category":"<script>alert(1)</script>"}}
