@@ -1,6 +1,8 @@
 # About FIXX
 
-This artifact contains details about Finding Exploits by Example (FIXX)
+FInding eXploits by eXample if a novel approach focused on detecting cross-site scripting (XSS) vulnerabilities in PHP application. Using a CVE containing information about a known XSS in an application, FIXX extracts useful information to find similar locations throughout the same application that are susceptible to XSS and also finds paths to such locations.
+
+FIXX has been built using Python and Cypher Queries. We present the details of using FIXX to find similar vulnerabilities below - 
 
 ## Table of Contents
 1. About The Project
@@ -17,18 +19,16 @@ Before running FIXX on any application, it is important to obtain a known vulner
 ## Pre-requisites
 - Most common terminal command <br>
     ```
-  python main.py -n *application name* *argument_type*
+  python main.py -n *application_name* *argument_type*
     ```
 - Docker Engine setup
   * The primary step in running our approach is to have Docker setup and running
-  * If you are on Windows, you can download Docker Desktop and create a docker image
-  * If you are on Mac
-  * Make sure the ports from your local machine are mapped to the corresponding ports inside the docker container
+  * The details of setting up docker have been provided in the docs folder
 - Application setup
-  * Download the source code of the application corresponding to the CVE being processed
+  * Download the source code of the application corresponding to the CVE being processed. Make sure the version matches the one mentionedin the CVE description.
   * Pull the source code written to help build the code property graph (CPG) of the application as well as run the similarity approach
-  * Build the Code Property Graph of the application using the <code> --buildcpg </code> option (This step can take a couple minutes to a few hours depending on the size of the application)
-  * Load the CPG of the application using the <code> --loadcpg </code>
+  * Build the Code Property Graph of the application using the terminal command given above and replace *application_name* with the name saved the application and *argument_type with *<code> --buildcpg </code> option (This step can take a couple minutes to a few hours depending on the size of the application)
+  * Load the CPG of the application using the same terminal command and application name along with the *argument_type* as <code> --loadcpg </code>
  
 ## Running FIXX
 - Now we are ready to run FIXX on the application
