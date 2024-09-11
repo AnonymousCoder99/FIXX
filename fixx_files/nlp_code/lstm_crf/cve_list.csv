@@ -1,0 +1,1 @@
+CVE-2021-43267,GLPi 9.5.4 does not sanitize the metadata. This way its possible to insert XSS into plugins to execute JavaScript code.
