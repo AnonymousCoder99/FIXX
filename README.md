@@ -1,4 +1,4 @@
-# About FIXX -- ALL CODE WILL BE ADDED BEFORE 9/20
+# About FIXX
 
 This artifact contains details about Finding Exploits by Example (FIXX)
 
