@@ -9,9 +9,11 @@ FIXX has been built using Python and Cypher Queries. We present the details of u
     - Built With
 2. Getting Started
     - Prerequisites
-    - Running FIXX
+3. Running FIXX
     - Interpreting Results
-3. Contact
+4. Contact
+    - Issues
+
 
 # Getting Started
 Before running FIXX on any application, it is important to obtain a known vulnerability or exposure (CVE) from [mitre.org](https://cve.mitre.org/index.html) that contains the corresponding application for which you wish to find other vulnerabilities.
@@ -30,8 +32,13 @@ Before running FIXX on any application, it is important to obtain a known vulner
   * Build the Code Property Graph of the application using the terminal command given above and replace *application_name* with the name saved the application and *argument_type with *<code> --buildcpg </code> option (This step can take a couple minutes to a few hours depending on the size of the application)
   * Load the CPG of the application using the same terminal command and application name along with the *argument_type* as <code> --loadcpg </code>
  
-## Running FIXX
+# Running FIXX
 - Now we are ready to run FIXX on the application
 - Using the <code> --similarity </code> option begin the process of computing the number of exploitable paths present in application
 
 ## Interpreting Results
+
+# Contact
+For security purposes, the authors of this project are currently anonymous. Please leave any feedback or suggestions using the Issues section.
+## Issues
+- Please use the Issues section of the repository to report any issues with the code or if you have any questions regarding running the analysis
