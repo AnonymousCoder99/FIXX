@@ -1,0 +1,4 @@
+score:  0.04753673292999136 /var/www/html/codeastro/add_type.php 12 func name: 1
+score:  1.261884183232498e-05 /var/www/html/codeastro/add_type.php 17 func name: 1
+score:  2.8522039757994815e-06 /var/www/html/codeastro/add_type.php 11 func name: 1
+score:  2.4200518582541056e-06 /var/www/html/codeastro/add_type.php 15 func name: 1

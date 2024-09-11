@@ -1,0 +1,4 @@
+score:  0.028522039757994815 /var/www/html/codeastro/add_type.php 11 func name: 1 type: AST_BINARY_OP
+score:  0.04753673292999136 /var/www/html/codeastro/add_type.php 12 func name: 1 type: AST_ASSIGN
+score:  0.024200518582541054 /var/www/html/codeastro/add_type.php 15 func name: 1 type: AST_ASSIGN
+score:  0.12618841832324978 /var/www/html/codeastro/add_type.php 17 func name: 1 type: AST_BINARY_OP
