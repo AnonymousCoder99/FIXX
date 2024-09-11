@@ -1,0 +1,15 @@
+This document contains details on how to setup docker in order to run FIXX
+
+If you are on Windows:
+(a) Download the Docker Desktop App for Windows using the link https://docs.docker.com/desktop/install/windows-install/
+(b) A Dockerfile has been provided in the same folder which contains all the requirements in ordeer to run FIXX
+(c) Using the Docker file, run the command docker build -t *docker_image_name*:*tag* .
+(d) This step will take a while to finish running
+(e) Once the previous step is complete, you will have a docker image created. You can view the list of docker images using docker ps
+(f) You will also find the created list of docker images shown on the Docker Desktop App
+(i) Simply hit the play button next your container, which will start the container and you can ssh into it
+(f) Along with the docker image, you will see a container id (for eg: 29355126ec03) which can be used to ssh into your container
+(g) Do docker exec -it *container_id* bash to go into your created docker container
+(h) Once inside the docker container, please checkout the readme in order to begin FIXX analysis
+
+If you are on Mac:
