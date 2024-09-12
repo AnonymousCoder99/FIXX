@@ -16,10 +16,10 @@ import argparse
 from urllib.request import Request, urlopen
 
 #create a file named cve_list.csv and populate it with all the cves before running the python file
-with open("C://Users/neilp/Downloads/uic-master (1)/uic-master/navex_docker/FIXX/fixx_files/nlp_code/lstm_crf/cve_list.csv") as fp:
+with open("../FIXX/fixx_files/nlp_code/lstm_crf/cve_list.csv") as fp:
     lines = fp.readlines()
 
-jsonfile = open("C://Users/neilp/Downloads/uic-master (1)/uic-master/navex_docker/FIXX/fixx_files/nlp_code/results/"+"codeastro"+ "/results.csv", "w")
+jsonfile = open("../FIXX/fixx_files/nlp_code/results/"+"codeastro"+ "/results.csv", "w")
 jsonfile.write("Testing\n")
 
 counter = 1
@@ -30,9 +30,9 @@ for l in lines:
     LINE = l.split(",", 3)[1]
     #links = l.split(",", 3)[2]
 
-    DATADIR = 'C://Users/neilp/Downloads/uic-master (1)/uic-master/navex_docker/FIXX/fixx_files/nlp_code/data/example'
-    PARAMS = 'C://Users/neilp/Downloads/uic-master (1)/uic-master/navex_docker/FIXX/fixx_files/nlp_code/lstm_crf/model_details/params.json'
-    MODELDIR = 'C://Users/neilp/Downloads/uic-master (1)/uic-master/navex_docker/FIXX/fixx_files/nlp_code/lstm_crf/model_details/model'
+    DATADIR = '../FIXX/fixx_files/nlp_code/data/example'
+    PARAMS = '../FIXX/fixx_files/nlp_code/lstm_crf/model_details/params.json'
+    MODELDIR = '../FIXX/fixx_files/nlp_code/lstm_crf/model_details/model'
 
 
     def pretty_print(line, preds):
