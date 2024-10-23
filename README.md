@@ -1,3 +1,6 @@
+## Important: 
+Please note that this README contains details about FIXX and a general explanation how to compute similar paths to a given vulnerability in an application. If you would like a more step-by-step explanation on how to compute paths using an example application, please checkout the Example folder in fixx_files.
+
 # About FIXX
 
 FInding eXploits by eXample if a novel approach focused on detecting cross-site scripting (XSS) vulnerabilities in PHP application. Using a CVE containing information about a known XSS in an application, FIXX extracts useful information to find similar locations throughout the same application that are susceptible to XSS and also finds paths to such locations.
