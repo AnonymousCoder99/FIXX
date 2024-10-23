@@ -11,4 +11,4 @@ This document contains details on how to setup docker in order to run FIXX
 (i) Simply hit the play button next your container, which will start the container and you can ssh into it
 (f) Along with the docker image, you will see a container id (for eg: 29355126ec03) which can be used to ssh into your container
 (g) Do <code> docker exec -it *container_id* bash </code> to go into your created docker container
-(h) Once inside the docker container, please checkout the readme in order to begin FIXX analysis
+(h) Once inside the docker container, please checkout the main readme.md file in order to begin FIXX analysis
