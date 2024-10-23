@@ -1,4 +1,4 @@
-This document contains details on how to setup docker in order to run FIXX
+this document contains details on how to setup docker in order to run FIXX
 
 (a) Download the Docker Desktop from one of the following links:
     1. If you are on Windows: Download the Docker Desktop App for Windows using the link https://docs.docker.com/desktop/install/windows-install/
