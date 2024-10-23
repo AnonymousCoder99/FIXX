@@ -1,4 +1,4 @@
-# this About FIXX
+# About FIXX
 
 FInding eXploits by eXample if a novel approach focused on detecting cross-site scripting (XSS) vulnerabilities in PHP application. Using a CVE containing information about a known XSS in an application, FIXX extracts useful information to find similar locations throughout the same application that are susceptible to XSS and also finds paths to such locations.
 
