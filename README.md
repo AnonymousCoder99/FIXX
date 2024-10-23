@@ -27,11 +27,11 @@ Before running FIXX on any application, it is important to obtain a known vulner
   * The primary step in running our approach is to have Docker setup and running
   * The details of setting up docker have been provided in the docs folder
 - Interested Vulnerability Exposure (CVE)
-  As mentioned in the Getting Started section, please find a CVE that you would like to process to discover additional similar vulnerabilities and paths
+  * As mentioned in the Getting Started section, please find a CVE that you would like to analyze to discover additional similar vulnerabilities and paths in the corresponding application that is mentioned in the selected CVE
 
 ## Running NLP
 - Note that this step can be run outside the docker container as well
-- Copy the corresponding CVE ID as well as the description of the CVE and input them into the cve_list file present inside fixx_files/nlp_code/lstm_crf
+- Copy the corresponding CVE ID as well as the description of the CVE and input them into the cve_list file present inside the fixx_files/nlp_code/lstm_crf folder
 - Make sure all the packages have been installed
 - Run the following command from the nlp_code/lstm_crf folder to begin the nlp process
   ```
@@ -39,7 +39,7 @@ Before running FIXX on any application, it is important to obtain a known vulner
     ```
 
 - Application setup
-  * Download the source code of the application corresponding to the CVE being processed. Make sure the version matches the one mentioned in the CVE description.
+  * Download the source code of the application corresponding to the CVE being processed. The CVE will usually contain reference links to source code of the application mentioned. Make sure the version matches the one mentioned in the CVE description.
   * Pull the source code written to help build the code property graph (CPG) of the application as well as run the similarity approach
   * Build the Code Property Graph of the application using the terminal command given above and replace *application_name* with the name saved the application and *argument_type* with <code> --buildcpg </code> option (This step can take a couple minutes to a few hours depending on the size of the application)
   * Load the CPG of the application using the same terminal command and application name along with the *argument_type* as <code> --loadcpg </code>
@@ -49,6 +49,8 @@ Before running FIXX on any application, it is important to obtain a known vulner
 - Using the <code> --similarity </code> option begin the process of computing the number of exploitable paths present in application
 
 ## Interpreting Results
+- Once FIXX has finished computing the total number of new paths present in the application being processed, a results file will be created in the same folder.
+- This file will contain the total number of spaths and dpaths as well as the number of similar nodes present in the application. 
 
 # Contact
 For security purposes, the authors of this project are currently anonymous. Please leave any feedback or suggestions using the Issues section.
