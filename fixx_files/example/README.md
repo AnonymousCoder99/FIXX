@@ -2,6 +2,8 @@
 
 ## Note: This example will contain step-by-step details on how to use FIXX on a given application in addition to the general instructions given in the main README file.
 
+# The details of this README are currently hidden due to security reasons. It will be released soon. Please use the Issues section for any questions about the code.
+
 <!-- ## Obtaining the CVE
 - Looking up PHP Cross-Site Scripting on mitre.org, we collect the CVE 'CVE-2024-25868' for the application Code Astro version 1.0
 - The link to this CVE and its corresponding description are given in the cve_details folder
